@@ -1,6 +1,6 @@
-# nodejs-alpine-buildtools-gm
+# nodejs-alpine-buildtools-gettext
 
-A Docker Image based on [mhart/alpine-node](https://hub.docker.com/r/mhart/alpine-node/) and [erdii/nodejs-alpine-buildtools](https://github.com/erdii/nodejs-alpine-buildtools) - this is just for the convenience of not having to install the buildtools on every Sub-Image-Build plus an installed gettext.
+A Docker Image based on [mhart/alpine-node](https://hub.docker.com/r/mhart/alpine-node/) and [erdii/nodejs-alpine-buildtools](https://github.com/erdii/nodejs-alpine-buildtools) - this is just for the convenience of not having to install the buildtools on every Sub-Image-Build plus an installed **gettext**.
 
 **For available versions head over to the [Tags](Tags/) Page.**
 
