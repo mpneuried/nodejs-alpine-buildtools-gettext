@@ -1,11 +1,11 @@
-FROM mhart/alpine-node:4.4
+FROM mhart/alpine-node:4.6
 MAINTAINER mpneuried
 
 # build tools for native dependencies
 RUN apk add --update make gcc g++ python git lzip
 
 # install gettext
-ENV GETTEXT_VER=0.19.7
+ENV GETTEXT_VER=0.19.8
 ENV GETTEXT_FNAME=gettext-$GETTEXT_VER
 ENV GETTEXT_SOURCE=http://ftp.gnu.org/pub/gnu/gettext/$GETTEXT_FNAME.tar.lz
 
